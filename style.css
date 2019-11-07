@@ -10,6 +10,12 @@ Default Style
     box-sizing: border-box;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .row {
     width: 1140px;
     margin: 0 auto;
@@ -25,3 +31,109 @@ body {
     text-rendering: optimizeLegibility;
     overflow: hidden;   
 }
+
+
+/*===============================
+Heading And Paragraph
+=================================*/
+
+h4 {
+    font-size: 90%;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 85%;
+    line-height: 135%;
+}
+
+
+/*===============================
+icons
+=================================*/
+
+.fa {
+    color: #ff5e57;
+    vertical-align: middle;
+}
+
+
+/*===============================
+Lists
+=================================*/
+
+.box {
+    background-color: #f3f3f3;
+    padding: 25px 15px;
+    border-radius: 3px;
+}
+
+.list {
+    margin-bottom: 15px;
+}
+
+.list .list-item {
+    background-color: #ffffff;
+    padding: 10px 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 2px 0px 10px rgba(112, 112, 112, 0.281);
+}
+
+.list .list-item p {
+    display: inline-block;
+    width: 88%;
+    float: left;
+    text-align: left;
+}
+
+.list .list-item i {
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+}
+
+
+/*===============================
+Lists
+=================================*/
+
+form {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+form .input-form {
+    display: inline-block;
+    width: 87%;
+    height: 36px;
+    float: left;
+    font-size: 70%;
+    text-align: left;
+    border: 1px solid #e2e2e2b6;
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(202, 202, 202, 0.192)
+}
+
+form i {
+    width: 13%;
+    text-align: right;
+    padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

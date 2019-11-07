@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <!-- Meta -->
@@ -11,7 +12,7 @@
     <title>Trello Drag And Drop</title>
 
     <!-- Four Column Css Grid -->
-    <link rel="stylesheet" type="text/css" href="./css/css.css">
+    <link rel="stylesheet" type="text/css" href="./css/grid.css">
     <!-- Normalize Css -->
     <link rel="stylesheet" type="text/css" href="./css/normalize.css">
     <!-- Custom Css -->
@@ -21,10 +22,34 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <h1>Hello World!</h1>
-    
+    <!-- App Main Section -->
+    <section class="section-main">
+        <div class="row">
+            <div class="lists">
+                <div class="col span-1-of-4 box">
+                    <h4>Things To Do</h4>
+                    <div class="list">
+                        <!-- <div id="draggable1" draggable="true" class="list-item">
+                            <p>This is poop</p>
+                            <i class="fa fa-times-circle"></i>
+                        </div> -->
+                    </div><!-- List End -->
+                    <form>
+                        <input type="text" class="input-form" placeholder="Add Task">
+                        <i class="fa fa-plus"></i>
+                    </form>
+                </div>
+                <div class="col span-1-of-4 box">dfdf</div>
+                <div class="col span-1-of-4 box">sdf</div>
+                <div class="col span-1-of-4 box"></div>
+            </div><!-- Lists End -->
+        </div><!-- Raw End -->
+    </section><!-- Main Section End -->
+
     <!-- Main App Js -->
     <script src="./main.js"></script>
 </body>
+
 </html>
