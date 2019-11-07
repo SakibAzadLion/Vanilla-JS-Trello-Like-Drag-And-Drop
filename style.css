@@ -1,0 +1,27 @@
+/*===============================
+Default Style
+=================================*/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+html,
+body {
+    background: #38ada9;
+    color: #292929;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow: hidden;   
+}
