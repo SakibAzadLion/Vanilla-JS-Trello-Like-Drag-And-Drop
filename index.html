@@ -30,19 +30,43 @@
             <div class="lists">
                 <div class="col span-1-of-4 box">
                     <h4>Things To Do</h4>
-                    <div class="list">
-                        <!-- <div id="draggable1" draggable="true" class="list-item">
+                    <div class="list js__list js__list_thingToDo">
+                        <!-- <div id="draggable1" draggable="true" class="list-item" data-index="0">
                             <p>This is poop</p>
                             <i class="fa fa-times-circle"></i>
                         </div> -->
                     </div><!-- List End -->
-                    <form>
-                        <input type="text" class="input-form" placeholder="Add Task">
-                        <i class="fa fa-plus"></i>
+                    <form class="js__add_items">
+                        <input type="text" name="thingToDo" class="input-form" placeholder="Add Task">
+                        <input type="submit" value="+" class="btn">
                     </form>
                 </div>
-                <div class="col span-1-of-4 box">dfdf</div>
-                <div class="col span-1-of-4 box">sdf</div>
+                <div class="col span-1-of-4 box">
+                    <h4>Doing</h4>
+                    <div class="list js__list js__list_doing">
+                        <!-- <div id="draggable1" draggable="true" class="list-item">
+                                <p>This is poop</p>
+                                <i class="fa fa-times-circle"></i>
+                            </div> -->
+                    </div><!-- List End -->
+                    <form class="js__add_items">
+                        <input type="text" name="doing" class="input-form" placeholder="Add Task">
+                        <input type="submit" value="+" class="btn">
+                    </form>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <h4>Done</h4>
+                    <div class="list js__list js__list_done">
+                        <!-- <div id="draggable1" draggable="true" class="list-item">
+                                <p>This is poop</p>
+                                <i class="fa fa-times-circle"></i>
+                            </div> -->
+                    </div><!-- List End -->
+                    <form class="js__add_items">
+                        <input type="text" name="done" class="input-form" placeholder="Add Task">
+                        <input type="submit" value="+" class="btn">
+                    </form>
+                </div>
                 <div class="col span-1-of-4 box"></div>
             </div><!-- Lists End -->
         </div><!-- Raw End -->

@@ -123,6 +123,14 @@ form i {
     padding: 7px;
 }
 
+.btn {
+    background-color: transparent;
+    color: #ff5e57;
+    font-size: 140%;
+    padding: 0px 5px;
+    border: 0;
+}
+
 
 
 
