@@ -131,6 +131,10 @@ form i {
     border: 0;
 }
 
+.invisible {
+    display: none;
+}
+
 
 
 
